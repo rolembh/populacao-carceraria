@@ -1,0 +1,17 @@
+      fields:
+        - name: codigo
+          type: integer
+        - name: estabelecimento_prisional
+          type: string
+        - name: sexo
+          type: string
+        - name: faixa_etaria_01_jan
+          type: string
+        - name: ano_registro
+          type: integer
+        - name: mes_numerico_01
+          type: integer
+        - name: mes_registro_01
+          type: string
+        - name: qtde
+          type: string

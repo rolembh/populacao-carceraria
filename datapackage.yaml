@@ -1,0 +1,35 @@
+profile: data-package
+name: populacao-carceraria
+title: População Carcerária
+owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
+resources:
+  - title: População Carcerária
+    description: Conjunto de Dados para testes 
+    dialect:
+      delimiter: ;
+    encoding: utf-8-sig
+    format: csv
+    hashing: md5
+    name: populacao-carceraria
+    path: data/populacao-carceraria.csv
+    profile: tabular-data-resource
+    schema:
+      fields:
+        - name: codigo
+          type: integer
+        - name: estabelecimento_prisional
+          title: Estabelecimento Prisional
+          type: string
+        - name: sexo
+          type: string
+        - name: faixa_etaria_01_jan
+          type: string
+        - name: ano_registro
+          type: integer
+        - name: mes_numerico_01
+          type: integer
+        - name: mes_registro_01
+          type: string
+        - name: qtde
+          type: string
+    scheme: file
