@@ -31,19 +31,35 @@ resources:
       fields:
         - name: codigo
           type: integer
+          title:
+          description:
         - name: estabelecimento_prisional
           title: Estabelecimento Prisional
           type: string
+          title:
+          description:
         - name: sexo
           type: string
+          title:
+          description:
         - name: faixa_etaria_01_jan
           type: string
+          title:
+          description:
         - name: ano_registro
           type: integer
+          title:
+          description:
         - name: mes_numerico_01
           type: integer
+          title:
+          description:
         - name: mes_registro_01
           type: string
+          title:
+          description:
         - name: qtde
           type: string
+          title:
+          description:
     scheme: file
