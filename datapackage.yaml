@@ -7,7 +7,7 @@ owner_org: secretaria-de-estado-de-justica-e-seguranca-publica-sejusp
 temporal:
   - start: 01-01-2022
     end: 31-01-2022
-frequência de atualização: mensal
+frequência de atualização: mensal 
 contributors:
   - title: Diretoria Central de Transparência Ativa
     role: author
@@ -31,8 +31,8 @@ resources:
       fields:
         - name: codigo
           type: integer
-          title:
-          description:
+          titleh: 
+          description:  
         - name: estabelecimento_prisional
           title: Estabelecimento Prisional
           type: string
@@ -40,16 +40,16 @@ resources:
           description:
         - name: sexo
           type: string
-          title:
-          description:
+          title:Sexo
+          description: Sexo do preso
         - name: faixa_etaria_01_jan
           type: string
-          title:
-          description:
+          title: Faixa Etaria
+          description:  Faixa  de 5 em  5 anos da idade do preso
         - name: ano_registro
           type: integer
-          title:
-          description:
+          title: Ano de Registro
+          description: Ano em que o dado foi registrado no banco de dados
         - name: mes_numerico_01
           type: integer
           title:
