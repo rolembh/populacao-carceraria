@@ -45,7 +45,7 @@ resources:
         - name: faixa_etaria_01_jan
           type: string
           title: Faixa Etaria
-          description:  Faixa  de 5 em  5 anos da idade do preso
+          description: Intervalo de 5 em 5 anos que compreende a idade do preso
         - name: ano_registro
           type: integer
           title: Ano de Registro
