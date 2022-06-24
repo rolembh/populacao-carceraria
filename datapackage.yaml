@@ -31,13 +31,13 @@ resources:
       fields:
         - name: codigo
           type: integer
-          title: 
-          description:  
+          title:  Código
+          description:  Número referent ao código da unidade
         - name: estabelecimento_prisional
           title: Estabelecimento Prisional
           type: string
-          title:
-          description:
+          title: Estabelecimento Prisional
+          description: Nome da unidade prisional
         - name: sexo
           type: string
           title:Sexo
@@ -52,14 +52,14 @@ resources:
           description: Ano em que o dado foi registrado no banco de dados
         - name: mes_numerico_01
           type: integer
-          title:
-          description:
+          title: Mês Numérico
+          description: Número referente ao mês
         - name: mes_registro_01
           type: string
-          title:
-          description:
+          title: Mês de Registro
+          description: Mês em que o dado foi registrado
         - name: qtde
           type: string
-          title:
-          description:
+          title: Quaantitativo
+          description: Número referentaa a quantidade de indíduos
     scheme: file
