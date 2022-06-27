@@ -29,18 +29,17 @@ resources:
     profile: tabular-data-resource
     schema:
       fields:
-        - name: Cod_Estabelecimento
+        - name: codigo
           type: integer
           title:  Cod_Estabelecimento
           description: Código com valores únicos que identificam cada Estabelecimento Prisional no Armazém de Dados do Sistema Sigpri/Infopen. 
-        - name: Estab_Nome 
+        - name: estabelecimento_prisional
           title: Estab_Nome 
           type: string
-          title: Estab_Nome 
           description: Nome do estabelecimento prisional, conforme consta no Sistema de Gestão de Informações Prisionais - SIGPRI. 
-        - name: Sexo
+        - name: sexo
           type: string
-          title:Sexo
+          title: Sexo
           description: Sexo - Masculino ou Feminino -  dos indivíduos acautelados de cada estabelecimento prisional 
         - name: faixa_etaria_01_jan
           type: string
